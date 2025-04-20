@@ -36,4 +36,4 @@ This project is licensed under the MIT License.
 
 ---
 
-If you have any questions or issues, feel free to open an issue on the [GitHub repo](link)!
+If you have any questions or issues, feel free to open an issue on the [GitHub repo](https://github.com/VZefoq/KeywordNotifier/issues)!
