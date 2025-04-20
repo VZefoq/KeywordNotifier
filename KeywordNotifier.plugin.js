@@ -101,7 +101,6 @@ module.exports = class KeywordNotifier {
       label.style.color = "var(--header-secondary)";
       labelContainer.appendChild(label);
 
-      // Tooltip icon
       if (tooltip) {
         const tooltipIcon = document.createElement("span");
         tooltipIcon.innerHTML = "ⓘ";
@@ -109,8 +108,7 @@ module.exports = class KeywordNotifier {
         tooltipIcon.style.cursor = "help";
         tooltipIcon.style.color = "var(--interactive-normal)";
         tooltipIcon.style.fontSize = "12px";
-        
-        // Tooltip popup
+
         const tooltipPopup = document.createElement("div");
         tooltipPopup.textContent = tooltip;
         tooltipPopup.style.position = "absolute";
@@ -238,7 +236,6 @@ module.exports = class KeywordNotifier {
     
     panel.appendChild(helpSection);
 
-    // Add version info
     const versionInfo = document.createElement("div");
     versionInfo.textContent = `${this.config.name} v${this.config.version} by ${this.config.author}`;
     versionInfo.style.marginTop = "16px";
