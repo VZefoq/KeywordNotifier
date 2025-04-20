@@ -11,7 +11,7 @@
 ## Installation:
 
 1. Make sure you have **BetterDiscord** installed.
-2. Download the `KeywordNotifier.plugin.js` file from the [releases page](link).
+2. Download the `KeywordNotifier.plugin.js` file.
 3. Place the file in the `plugins` folder of your BetterDiscord directory.
 4. Reload Discord, and the plugin should be active.
 5. Open the settings from the BetterDiscord plugin menu to configure your keywords, servers, and channels.
